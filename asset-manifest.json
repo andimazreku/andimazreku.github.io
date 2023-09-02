@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/andimazreku.github.io/static/css/main.becb0f0a.css",
-    "main.js": "/andimazreku.github.io/static/js/main.dd9a5694.js",
-    "index.html": "/andimazreku.github.io/index.html",
-    "main.becb0f0a.css.map": "/andimazreku.github.io/static/css/main.becb0f0a.css.map",
-    "main.dd9a5694.js.map": "/andimazreku.github.io/static/js/main.dd9a5694.js.map"
+    "main.css": "/website/static/css/main.becb0f0a.css",
+    "main.js": "/website/static/js/main.45decd1a.js",
+    "index.html": "/website/index.html",
+    "main.becb0f0a.css.map": "/website/static/css/main.becb0f0a.css.map",
+    "main.45decd1a.js.map": "/website/static/js/main.45decd1a.js.map"
   },
   "entrypoints": [
     "static/css/main.becb0f0a.css",
-    "static/js/main.dd9a5694.js"
+    "static/js/main.45decd1a.js"
   ]
 }
