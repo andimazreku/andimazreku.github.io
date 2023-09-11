@@ -1,0 +1,156 @@
+/* Contact.css */
+
+.body {
+    font-family: 'Acumin Variable Concept', sans-serif;
+    background-color: #f2fff2;
+    color: #101b11;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between; /* Spacing between form and Instagram link */
+    align-items: flex-start; /* Align items at the top */
+    margin: 0px 20px; /* Adjust margin as needed */
+    width: 65%;
+    margin-top: 100px;
+  }
+  
+  .contact-form {
+    flex: 1; /* Take up available space on the left */
+    padding: 0px; /* Adjust padding as needed */
+    display: grid;
+    grid-template-columns: 0fr 1fr; /* Two columns */
+    grid-template-rows: repeat(3, 100px);
+    gap: 16px; /* Gap between grid items */
+    /* flex-direction: column; */
+    align-items: start;
+
+  }  
+
+  /*.form-row {
+    /* flex: 1; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px; /* Add spacing between columns 
+  }
+*/
+
+  .label-column {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+  }
+  
+  .input-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-form h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .contact-form label {
+    padding: 0px 3px; /* Adjust padding as needed */
+    margin: 0px 0px 16px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    border: none; /* Remove input borders */
+    border-bottom: 1px solid #101b11; /* Add a single border at the bottom */
+    padding: 0px 3px; /* Adjust padding as needed */
+    margin: 0px 0px 16px;
+    outline: none; /* Remove the outline on focus */
+    width: 100%;
+    background-color: #f2fff2;
+    font-family: 'Acumin Variable Concept', sans-serif;
+    font-weight: 300;
+    font-size: small;
+}
+
+  .contact-form button {
+    font-weight: bold; 
+    background-color: #101b11;
+    color: #f2fff2;
+    border: none; /* Remove button border */
+    padding: 2px 4px; /* Adjust padding as needed */
+    cursor: pointer; /* Add pointer cursor on hover */
+    /* transition: background-color 0.3s, color 0.3s; */
+    width: min-content;
+  }
+  
+  /*
+  .contact-form button:hover {
+    background-color: #f2fff2; 
+    color: #101b11; 
+  }
+  */
+
+  .instagram-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px; 
+    background-color: #f2fff2;
+    transition: background-color 0.2s;
+    font-weight: 600;
+  }
+  
+  .instagram-link a {
+    padding: 3px;
+    text-decoration: none;
+    color: #101b11;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .instagram-link a:hover {
+    color: #f2fff2;
+    background-color: #101b11;
+  }
+  
+
+.email-address {
+  position: fixed;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  right: 10px; /* Adjust the distance from the right */
+  background-color: #f2fff2;
+  padding: 10px;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .instagram-link {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .email-address {
+    position: static;
+    margin-top: 20px;
+  }
+}

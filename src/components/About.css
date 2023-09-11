@@ -1,0 +1,66 @@
+/* About.css */
+
+.about {
+  margin-top: 100px;
+  padding: 20px;
+  position: relative; /* Allows positioning of top-left-text */
+  font-family: 'Acumin Variable Concept', sans-serif;
+  background-color: #f2fff2;
+  color: #101b11;
+}
+
+.top-left-text {
+  position: absolute;
+  top: 0px; 
+  left: 20px; 
+  font-size: 14px;
+  line-height: 2.5;
+  color: #101b11;
+}
+
+.gallery {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+.gallery-item {
+  position: relative;
+  flex: 1 1 calc(33.33% - 10px); /* Adjust the width as needed */
+  /* overflow: hidden; */
+}
+
+.gallery-item img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 20px -10px 0px 0px; /* Overlay each image over the next one */
+}
+
+gallery-item:last-child img {
+  margin-left: 0; /* Remove margin from the last image */
+}
+
+/* Add styles for mobile screens */
+@media screen and (max-width: 600px) {
+  .about {
+    padding: 10px;
+  }
+
+  .top-left-text {
+    font-size: 12px;
+    line-height: 2;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+  }
+
+  .gallery {
+    gap: 5px;
+  }
+
+  .gallery-item {
+    flex: 1 1 calc(50% - 5px);
+  }
+}

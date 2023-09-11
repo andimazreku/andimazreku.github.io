@@ -1,0 +1,107 @@
+/* NavigationBar.css */
+.body {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  background-color: #f2fff2;
+  color: #101b11;
+}
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  width: 97%;
+  display: flex;
+  background-color: #f2fff2;
+  padding: 30px 20px;
+  /* margin-top: 20px; */
+  margin-bottom: 40px;
+  z-index: 999;
+}
+
+.nav-cell {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-cell-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-cell-right {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.nav-cell-right a:hover {
+  color: #f2fff2;
+  background-color: #101b11;
+}
+
+.nav-cell-left a:hover {
+  color: #f2fff2;
+  background-color: #101b11;
+}
+
+.nav-cell-right a {
+  text-decoration: none;
+  font-family: 'Acumin Variable Concept', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 3px 5px;
+  color: #101b11;
+  transition: color 0.2s;
+}
+
+.nav-cell-left a {
+  text-decoration: none;
+  font-family: 'Acumin Variable Concept', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 3px 5px;
+  margin: 0;
+  color: #101b11;
+  transition: color 0.2s;
+}
+/* 
+.nav-text-left {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 3px 5px;
+  margin: 0;
+  transition: color 0.2s;
+}
+
+.nav-text-right {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 3px 5px;
+  margin: 0;
+  transition: color 0.2s;
+}
+ */
+
+
+ /* Add styles for mobile screens */
+@media screen and (max-width: 600px) {
+  .navigation-bar {
+    margin-top: 0px; /* Adjust top margin for smaller screens */
+    width: 92%;
+  }
+
+  .nav-cell {
+    width: 100%; /* Make navigation cells full width */
+    margin: 5px 0; /* Add spacing between navigation items */
+  }
+
+  .nav-cell-left {
+    flex: 2;
+  }
+}

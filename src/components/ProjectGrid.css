@@ -1,0 +1,73 @@
+/* ProjectGrid.css */
+.body {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  background-color: #f2fff2;
+  color: #101b11;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f2fff2;
+    /* padding: 10px; */
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 100px;
+  }
+
+  .project-grid a {
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .project-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0px;
+    background-color: #f2fff2;
+  }
+  
+  .project-card img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%; 
+  }
+
+  .project-image {
+    width: 100%;
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+  
+  .project-card h3 {
+    margin-top: 40px;
+    opacity: 0;
+    font-family: 'Acumin Variable Concept', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #101b11;
+  }
+  
+  .project-card:hover h3 {
+    opacity: 1; 
+  }
+
+
+  /* Add styles for mobile screens */
+@media screen and (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr); /* Display projects in a single column on smaller screens */
+    margin-left: 0; /* Remove left margin to center the projects */
+    margin-right: 0; /* Remove right margin to center the projects */
+  }
+
+  .project-card {
+    margin: 10px 0; /* Add spacing between project cards */
+  }
+}
