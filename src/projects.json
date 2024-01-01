@@ -1,107 +1,178 @@
 [
-    {
-      "imageSrc": "assets/images/001.png",
-      "gifSrc": "assets/gifs/001.gif",
-      "title": "° ’ ’’N ° ’ ’’E",
-      "description": "We interviewed Alina Khashei and Sultan Ali Bostani to shape a memorial for people on the move related to their experiences and amplified through a faded estranged display on a tent. Dangers, obstacles, and occurrences on their paths through the Balkan route are individually exhibited as maps, while anonymized scenes of tight and minimal living conditions loop, from replicated motions to Sultan’s own recordings. The work serves as a tribute to Alina and Sultan.",
-      "info": {
-        "year": "2023",
-        "colab": [
-          {
-            "name": "Alina Khashei",
-            "link": ""
-          },
-          {
-            "name": "Sultan Ali Bostani",
-            "link": ""
-          },
-          {
-            "name": "Min Seok Oh",
-            "link": "https://www.instagram.com/minseoklukasoh/"
-          }
-        ],
-        "type": "physical installation, film",
-        "assignment": "memorial project",
-        "course": "Felix Kapolka",
-        "uni": "HTW Berlin",
-        "exhibition": []
-      },
-      "imgs": [
-        "assets/images/0/1.png",
-        "assets/images/0/2.png",
-        "assets/images/0/3.png",
-        "assets/images/0/4.png",
-        "assets/images/0/5.png",
-        "assets/images/0/6.png"
+  {
+    "imageSrc": "assets/images/001.png",
+    "videoSrc": "assets/gifs/001.mp4",
+    "title": "° ’ ’’N ° ’ ’’E",
+    "description": "I interviewed Alina Khashei and Sultan Ali Bostani to shape a memorial for people on the move related to their experiences and amplified through a faded estranged display on a tent. Dangers, obstacles, and occurrences on their paths through the Balkan route are individually exhibited as maps, while anonymized scenes of tight and minimal living conditions loop, from replicated motions to Sultan’s own recordings. The work serves as a tribute to Alina and Sultan.",
+    "info": {
+      "year": "2023",
+      "size": "3 x 3 m",
+      "colab": [],
+      "interviewees": [
+        {
+          "name": "Alina Khashei",
+          "link": ""
+        },
+        {
+          "name": "Sultan Ali Bostani",
+          "link": ""
+        }
+      ],
+      "assistance": [
+        {
+          "name": "Min Seok Oh",
+          "link": "https://www.instagram.com/minseoklukasoh/"
+        }
+      ],
+      "model": [],
+      "type": "tent, memorial",
+      "media": "film on projector, wood, linen, graffiti, clothesline, wood hangers, clothes",
+      "assignment": "",
+      "course": "Erinnerung Gestalten",
+      "ledby": "Felix Kapolka",
+      "uni": "HTW Berlin",
+      "exhibition": []
+    },
+    "imgs": [
+      "assets/images/0/1.png",
+      "assets/images/0/2.png",
+      "assets/images/0/3.png",
+      "assets/images/0/4.png",
+      "assets/images/0/5.png",
+      "assets/images/0/6.png"
+    ],
+    "video": [
+      "https://www.youtube.com/watch?v=yaIPV85xQ44"
+    ]
+  },
+  {
+    "imageSrc": "assets/images/002.png",
+    "videoSrc": "assets/gifs/002.mp4",
+    "title": "SCANOPTICON",
+    "description": "In her seminal book Surveillance Capitalism, author Shoshana Zuboff describes how Big Tech is endangering basic democratic rights by turning humanity itself into a product. Self-consciousness and censorship increase as individuals strive to maintain a positive digital image. Manipulation extends further through targeted advertising and personalized content, distorting people’s perceptions of their true selves. The inherent power imbalance strips individuals of control over their self-image and identity, leaving them vulnerable and autonomy-deprived. Augmented reality overlays digital information onto the physical world. SCANOPTICON meshes the physical and virtual realm into one.",
+    "info": {
+      "year": "2023",
+      "size": "11.5 x 3.5 m",
+      "interviewees":[],
+      "assistance":[],
+      "model": [],
+      "colab": [
+        {
+          "name": "Emilia Gentis",
+          "link": "http://emiliagentis.org/"
+        }
+      ],
+      "type": "Aero augmented reality experience",
+      "media": "Aero, Blender, Polycam, Premiere Pro, Photoshop, camcorder",
+      "assignment": "",
+      "course": "AUGMENTED REALITY - how can we decolonize the digital sphere?",
+      "ledby": "Mykala Hyldig Dal",
+      "uni": "HTW Berlin",
+      "exhibition": [
+        {
+          "name": "MANIFEST:IO",
+          "place": "Berlin, Germany",
+          "time": "17.-18.02.2023", 
+          "link": "https://www.instagram.com/manifest.io.berlin/"
+        },
+        {
+          "name": "ARS Electronica Festival 2023",
+          "place": "Linz, Austria",
+          "time": "6.-10.09.2023",
+          "link": "https://ars.electronica.art/who-owns-the-truth/en/scanopticon/"
+        },
+        {
+          "name": "100 Jahre Flughafen Tempelhof",
+          "place": "Berlin, Germany",
+          "time": "6.-10.10.2023", 
+          "link": "https://www.thf-berlin.de/aktuelles/100-jahre-100-stunden/veranstaltung/e-gentis-a-mazreku-scanopticon"
+        }
       ]
     },
-    {
-      "imageSrc": "assets/images/002.png",
-      "gifSrc": "assets/gifs/002.gif",
-      "title": "SCANOPTICON",
-      "description": "In her seminal book Surveillance Capitalism (the source material) author Shoshana Zuboff describes how Big Tech is endangering basic democratic rights by turning humanity itself into a product. Self-consciousness and censorship increase as individuals strive to maintain a positive digital image. Manipulation extends further through targeted advertising and personalized content, distorting people’s perceptions of their true selves. The inherent power imbalance strips individuals of control over their self-image and identity, leaving them vulnerable and autonomy-deprived. Augmented reality overlays digital information onto the physical world. SCANOPTICON meshes the physical and virtual realm into one.",
-      "info": {
-        "year": "2023",
-        "colab": [
-          {
-            "name": "Emilia Gentis",
-            "link": "http://emiliagentis.com/"
-          }
-        ],
-        "type": "AR installation",
-        "assignment": "",
-        "course": "Mykala Hyldig Dal",
-        "uni": "HTW Berlin",
-        "exhibition": [
-          {
-            "name": "MANIFEST:IO",
-            "place": "Berlin, Germany",
-            "time": "17.02.-18.02.2023"
-          },
-          {
-            "name": "ARS Electronica Festival 2023",
-            "place": "Linz, Austria",
-            "time": "06.09.-10.09.2023"
-          }
-        ]
-      },
-      "imgs": [
-        "assets/images/1/1.png",
-        "assets/images/1/2.png",
-        "assets/images/1/3.png",
-        "assets/images/1/4.png",
-        "assets/images/1/5.png",
-        "assets/images/1/6.png",
-        "assets/images/1/7.png",
-        "assets/images/1/8.png"
-      ]
+    "imgs": [
+      "assets/images/1/1.jpg",
+      "assets/images/1/2.jpg",
+      "assets/images/1/3.jpg",
+      "assets/images/1/4.jpg",
+      "assets/images/1/5.jpg",
+      "assets/images/1/6.jpg",
+      "assets/images/1/7.jpg",
+      "assets/images/1/8.jpg",
+      "assets/images/1/9.jpg"
+    ],
+    "video": [
+      "https://www.youtube.com/watch?v=ogQqRRzUy98",
+      "https://www.youtube.com/watch?v=NOfbyPGG5aw"
+    ]
+  },
+  {
+    "imageSrc": "assets/images/003.jpg",
+    "videoSrc": "assets/gifs/003.mp4",
+    "title": "SCANOPTICON#USER",
+    "description": "Conception of the character of the USER for SCANOPTICON. \"We are not scrutinized for substance but for form. The price you are offered does not derive from what you write about but how you write it. It is not what is in your sentences but in their length and complexity, not what you list but that you list, not the picture but the choice of filter and degree of saturation, not what you disclose but how you share or fail to, not where you make plans to see your friends but how you do so: a casual \"later\" or a precise time and place?.\" \n - \"Surveillance Capitalism\", Shoshana Zuboff",
+    "info": {
+      "year": "2022",
+      "size": "",
+      "media": "",
+      "colab":[],
+      "interviewees":[],
+      "assistance":[],
+      "model": [
+        {
+          "name": "Emilia Gentis",
+          "link": "http://emiliagentis.com/"
+        }
+      ],
+      "type": "photography",
+      "assignment": "",
+      "course": [],
+      "ledby": [],
+      "uni": [],
+      "exhibition": []
     },
-    {
-      "imageSrc": "assets/images/003.png",
-      "gifSrc": "assets/gifs/003.gif",
-      "title": "HABEN ODER SEIN",
-      "description": "The texts written by Erich Fromm in 1976 are still of unrestricted relevance in the year 2022. In fact, we already are feeling the dramatic consequences of our greedy society. In a fast-paced world, where information is mostly conveyed through images and simple visual structures, many have difficulties reading complex books. Therefore, we have selected chapters of the book to provide access in a new form, a magazine. In selecting the content, we have been very careful to preserve the views of the author.",
-      "info": {
-        "year": "2022",
-        "colab": [
-          {
-            "name": "Katharina Häring",
-            "link": "https://www.instagram.com/aniratak.n/"
-          }
-        ],
-        "type": "magazine",
-        "assignment": "typography project",
-        "course": "Jürgen Huber",
-        "uni": "HTW Berlin",
-        "exhibition": []
-      },
-      "imgs": [
-        "assets/images/2/1.png",
-        "assets/images/2/2.png",
-        "assets/images/2/3.png",
-        "assets/images/2/4.png",
-        "assets/images/2/5.png"
-      ]
-    }
-  ]
+    "imgs": [
+      "assets/images/2/1.jpg",
+      "assets/images/2/2.jpg",
+      "assets/images/2/3.jpg"
+    ],
+    "video": []
+  },
+  {
+    "imageSrc": "assets/images/004.jpg",
+    "videoSrc": "assets/gifs/004.mp4",
+    "title": "HABEN ODER SEIN",
+    "description": "The texts written by Erich Fromm in 1976 are still of unrestricted relevance in the year 2022. In fact, we already are feeling the dramatic consequences of our greedy society. In a fast-paced world, where information is mostly conveyed through images and simple visual structures, many have difficulties reading complex books. Therefore, we have selected chapters of the book to provide access in a new form, a magazine. In selecting the content, we have been very careful to preserve the views of the author.",
+    "info": {
+      "year": "2022",
+      "interviewees":[],
+      "assistance":[],
+      "model": [],
+      "colab": [
+        {
+          "name": "Katharina Häring",
+          "link": "https://www.instagram.com/aniratak.n/"
+        }
+      ],
+      "type": "magazine",
+      "media": "InDesign, Photoshop, illustrations",
+      "size": "280 x 400 mm",
+      "assignment": "",
+      "course": "typography",
+      "ledby": "Jürgen Huber",
+      "uni": "HTW Berlin",
+      "exhibition": []
+    },
+    "imgs": [
+      "assets/images/3/0.gif",
+      "assets/images/3/1.jpg",
+      "assets/images/3/2.jpg",
+      "assets/images/3/3.jpg",
+      "assets/images/3/4.jpg",
+      "assets/images/3/5.jpg",
+      "assets/images/3/6.jpg",
+      "assets/images/3/7.jpg"
+    ],
+    "video": []
+  }
+]
   

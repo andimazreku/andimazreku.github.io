@@ -43,7 +43,7 @@ gallery-item:last-child img {
 }
 
 /* Add styles for mobile screens */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .about {
     padding: 10px;
   }

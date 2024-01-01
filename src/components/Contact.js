@@ -3,18 +3,10 @@ import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  // Handle form submission
-  const handleSubmit = (e) => {
-    console.log(e)
-    e.preventDefault();
-
-    // You can add your logic here to handle form submission
-  };
-
   return (
     <div className="contact-container">
       
-      <div className="contact-form" onSubmit={handleSubmit}>
+      {/* <div className="contact-form" onSubmit={handleSubmit}>
           <div className="label-column">
             <div className='row'><label htmlFor="name">name</label></div>
             <div className='row'><label htmlFor="email">email</label></div>
@@ -27,10 +19,11 @@ const Contact = () => {
             <textarea id="message" name="message" rows="6" required />
             <button type="submit">send</button>
           </div>
-      </div>
+      </div> */}
 
       <div className="email-address">
-        andimazreku0(at)gmail(dot)com
+        <a href="mailto:andimazreku0@gmail.com">andimazreku0@gmail.com</a>
+        
       </div>
 
       <div className="instagram-link">

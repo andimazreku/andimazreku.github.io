@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 import './ProjectGrid.css';
 import { Link } from 'react-router-dom'; 
 
-const ProjectGrid = ({ projects }) => {
+const ProjectGrid = React.memo(({ projects }) => {
   return (
     <div className="project-grid">
       {projects.map((project, index) => (
@@ -12,13 +12,13 @@ const ProjectGrid = ({ projects }) => {
           <ProjectCard
             key={index}
             imageSrc={project.imageSrc}
-            gifSrc={project.gifSrc}
+            videoSrc={project.videoSrc}
             title={project.title}
           />
         </Link>
       ))}
     </div>
   );
-};
+});
 
 export default ProjectGrid;
